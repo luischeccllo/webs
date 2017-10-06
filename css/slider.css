@@ -1,0 +1,111 @@
+.banner
+{
+    margin-top: 60px;
+    height: 230px;
+}
+
+#slider
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#slider ul
+{
+    padding: 0;
+    height: 230px;
+
+    display: flex;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+}
+
+#slider li
+{
+    width: 100%;
+    height: 230px;
+    list-style: none;
+}
+
+#slider img
+{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio
+{
+    0%{ margin-left: 0;}
+    20%{ margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+
+
+
+
+
+
+
+/*haciendo responsive*/
+
+
+@media (min-width:410px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 260px;
+    }
+}
+
+@media (min-width:540px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 320px;
+    }
+}
+
+@media (min-width:750px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 380px;
+    }
+}
+
+@media (min-width:1000px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 490px;
+    }
+}
+
+@media (min-width:1250px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 590px;
+    }
+}
+
+
+@media (min-width:1600px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 620px;
+    }
+}

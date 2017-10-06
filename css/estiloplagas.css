@@ -1,0 +1,16 @@
+@import url(menu.css);
+@import url(estilos.css);
+@import url(indexresponsive.css);
+@import url(estilotips.css);
+@import url(estilocuidados.css);
+@import url(estilomantenimiento.css);
+
+
+
+@media (min-width:320px)
+{
+    #con3
+    {
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,209 @@
+.encabezado
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado .contenedor
+{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marca
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.marca img
+{
+    width: 50px;
+}
+
+.marca h1
+{
+    color: #146E14;
+    font-size: 27px;
+    margin-left: 5px;
+}
+
+.mibot
+{
+    align-items: center;
+    font-size: 27px;
+    height: auto;
+    margin-top: -3px;
+}
+
+.icon-menu
+{
+    cursor: pointer;
+    color: #146E14;
+}
+
+#menu-bar
+{
+    display: none;
+}
+
+/*diseño de los enlaces*/
+
+.menu
+{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,114,17,0.75);
+
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu a
+{
+    display: block;
+    color: #fff;
+    height: 69px;
+    text-decoration: none;
+    padding: 25px;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.menu a:hover
+{
+    background: rgba(46,184,4,0.35);
+}
+
+#menu-bar:checked ~ .menu
+{
+    transform: translateX(0%);
+}
+
+#menu-bar:checked ~ .icon-menu
+{
+    opacity: 0;
+}
+
+#menu-bar:checked ~ .icon-cancel
+{
+    opacity: 1;
+}
+
+
+
+
+
+/*haciendo responsive*/
+
+
+@media (min-width:410px)
+{
+    .encabezado .contenedor
+    {
+        width: 92%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: blue;
+    } 
+}
+
+
+
+
+
+@media (min-width:540px)
+{
+    .encabezado .contenedor
+    {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: blue;
+    }
+}
+
+
+
+
+
+
+
+/*haciendo responsive*/
+
+
+@media (min-width:1000px)
+{
+    .encabezado .contenedor
+    {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: blue;
+    }
+
+    .menu
+    {
+        position: static;
+        width: auto;
+        height: 60px;
+        transform: translateX(0%);
+        transition: 0.1s;
+        float: right;
+        display: flex;
+        background: none;
+    }
+
+    .menu a
+    {
+        border: none;
+        height: 60px;
+        font-size: 22px;
+        padding: 17px;
+        color: #146E14;
+    }
+
+    header label
+    {
+        display: none;
+    }
+
+    .marca img
+    {
+        height: 100%;
+    }
+
+    .marca h1
+    {
+        margin-left: 15px;
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:1250px)
+{
+    .encabezado .contenedor
+    {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: blue;
+    }
+}
+

@@ -1,0 +1,201 @@
+@import url(menu.css);
+@import url(footer.css);
+@import url(estilos.css);
+
+
+
+@media (min-width:320px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        padding-bottom: 20px;
+        background: red;
+    }
+
+    .inicio
+    {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: justify;
+    }
+
+    .inicio h1
+    {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+    }
+
+    .inicio p
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .face
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .infor
+    {
+        padding-bottom: 20px;
+    }
+
+    .infor h2
+    {
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 20px;
+    }
+
+    .especifi
+    {
+        width: 90%;
+        margin: auto;
+    }
+
+    .especifi p
+    {
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+
+    .mapa
+    {
+        margin-top: 15px;
+        height: 300px;
+        background-image: url(../img/limpieza.JPG);
+        margin-bottom: 15px
+    }
+
+    .contenedor
+    {
+        width: 95%;
+    }
+}
+
+
+@media (min-width:410px)
+{
+    .contenedor
+    {
+        width: 92%;
+    } 
+}
+
+
+
+
+
+@media (min-width:540px)
+{
+    .contenedor
+    {
+        width: 90%;
+    }
+
+    .mapa
+    {
+        margin-top: 15px;
+        height: 400px;
+        background-image: url(../img/limpieza.JPG);
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:750px)
+{
+    .caja
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        padding-bottom: 0px;
+        background: red;
+    }
+    
+    .face
+    {
+        text-align: center;
+        width: 80%;
+        background: green;
+    }
+    
+    .superior
+    {
+        width: 100%;
+        background: yellow;
+        padding-right: 10%;
+    }
+    
+    .mapa
+    {
+        margin-top: 25px;
+        height: 500px;
+        background-image: url(../img/limpieza.JPG);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*haciendo responsive*/
+
+
+@media (min-width:1000px)
+{
+
+    .contenedor
+    {
+        width: 85%;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:1250px)
+{
+    .contenedor
+    {
+        width: 80%;
+    }
+}

@@ -1,0 +1,202 @@
+@media (min-width:320px)
+{
+    /* estilos al modal que va a ser una galeria, */
+
+    .modal
+    {
+        display: none;
+    }
+
+    .modal:target
+    {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+        background: rgba(0,0,0,1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        z-index: 100;
+    }
+
+    .centro
+    {
+        margin: auto auto;
+        width: 100%;
+    }
+
+    .imagen
+    {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen img
+    {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .botones
+    {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        background: black;
+        border-top: 1px solid white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .botones a
+    {
+        color: #fff;
+        font-size: 260%;
+        width: auto;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-decoration: none;
+        font-family: monospace;
+    }
+
+    .derecha, .izquierda
+    {
+        position: absolute;
+    }
+
+    .derecha
+    {
+        right: 1px;
+    }
+
+    .izquierda
+    {
+        right: 15%;
+    }
+
+    .cerrar
+    {
+        display: inline-block; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:540px)
+{
+    /* estilos al modal que va a ser una galeria, */
+
+    .modal
+    {
+        display: none;
+    }
+
+    .modal:target
+    {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+        background: rgba(0,0,0,1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        z-index: 100;
+    }
+
+    .centro
+    {
+        margin: auto auto;
+        width: 450px;
+        height: 330px;
+        background: red;
+    }
+
+    .imagen
+    {
+        width: 450px;
+        height: 100%;;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen img
+    {
+        width: 100%;
+        height: 335px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .botones
+    {
+        position: absolute;
+        width: 450px;
+        height: 85px;
+        top: 553px;
+        background: rgba(115, 112, 112, 0.4);
+        border-top: 1px solid black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .botones a
+    {
+        color: #fff;
+        font-size: 260%;
+        width: auto;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-decoration: none;
+        font-family: monospace;
+    }
+
+    .derecha, .izquierda
+    {
+        position: absolute;
+    }
+
+    .derecha
+    {
+        right: 1px;
+    }
+
+    .izquierda
+    {
+        right: 15%;
+    }
+
+    .cerrar
+    {
+        display: inline-block; 
+    }
+}

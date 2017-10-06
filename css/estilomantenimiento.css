@@ -1,0 +1,446 @@
+@import url(menu.css);
+@import url(estilos.css);
+@import url(indexresponsive.css);
+@import url(estilocuidados.css);
+
+
+
+
+
+
+
+@media (min-width:320px)
+{
+    .padre
+    {
+
+    }
+
+    .art1
+    {
+
+    }
+
+    #con4
+    {
+        display: flex;
+        flex-direction: column;
+
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        height: auto;
+        text-align: justify;
+    }
+
+    #con4 p
+    {
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+
+    #con4 img
+    {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 7%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:380px)
+{
+    #con4
+    {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    #con4 p
+    {
+        margin-bottom: 25px;
+        line-height: 25px;
+        font-size: 17.2px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:410px)
+{
+    #con4
+    {
+        align-items: center;
+    }
+
+    #con4 img
+    {
+        width: 80%;
+        height: 260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:540px)
+{
+    #con4 img
+    {
+        width: 80%;
+        height: 290px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:620px)
+{
+    #con2
+    {
+
+    }
+
+    #con4
+    {
+
+    }
+
+    #con4 img
+    {
+        width: 75%;
+        height: 290px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:720px)
+{
+    .luis
+    {
+        padding-bottom: 30px;
+    }
+
+    #con4
+    {
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #con4 p
+    {
+        width: 46%;
+        margin-bottom: 0px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #con4 img
+    {
+        width: 49%;
+        height: 300px;
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:850px)
+{
+    #con4
+    {
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #con4 p
+    {
+        width: 44%;
+        margin-bottom: 0px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #con4 img
+    {
+        width: 50%;
+        height: 320px;
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px)
+{
+    #con4
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #con4 p
+    {
+        width: 43%;
+        margin-bottom: 0px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    #con4 img
+    {
+        width: 50%;
+        height: 330px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1250px)
+{
+    #con2
+    {
+        
+    }
+
+    #con4
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #con4 p
+    {
+        width: 48%;
+        margin-bottom: 25px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    #con4 img
+    {
+        width: 49%;
+        height: 330px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1400px)
+{
+    .luis
+    {
+        padding-bottom: 40px;
+    }
+    
+    #idea
+    {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background: red;
+        line-height: 40px;
+    }
+}
+
+

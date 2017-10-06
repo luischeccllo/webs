@@ -1,0 +1,1080 @@
+@import url(menu.css);
+@import url(estilos.css);
+@import url(indexresponsive.css);
+@import url(estilotips.css);
+
+
+
+
+
+
+@media (min-width:320px)
+{
+    .padre
+    {
+        margin-top: 60px;
+        height: auto;
+    }
+
+    .art1
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .content
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #portada
+    {
+        width: 100%;
+        height: 220px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 17px;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        line-height: 20px;
+    }
+
+    .content h2
+    {
+        text-align: center;
+        font-size: 24px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #con1
+    {
+        margin-top: 7%;
+    }
+
+    #con2
+    {
+        margin-bottom: 7%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #con2 img
+    {
+        width: 100%;
+    }
+
+    #con3
+    {
+        padding-bottom: 1%;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        height: auto;
+        text-align: justify;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        margin-bottom: 25px;
+        line-height: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:380px)
+{
+    .art1
+    {
+        background: green;
+    }
+
+    #portada
+    {
+        height: 230px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 17px;
+        padding-left: 9%;
+        padding-right: 9%;
+        line-height: 25px;
+    }
+
+    .content h2
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: auto;
+        text-align: justify;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        margin-bottom: 25px;
+        line-height: 25px;
+        font-size: 17.2px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:410px)
+{
+    .art1
+    {
+        background: blue;
+    }
+
+    #portada
+    {
+        height: 245px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 17px;
+        padding-left: 9%;
+        padding-right: 9%;
+        line-height: 25px;
+    }
+
+    .content h2
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: auto;
+        text-align: justify;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        margin-bottom: 25px;
+        line-height: 25px;
+        font-size: 17.2px;
+    }
+
+    #con2
+    {
+        align-items: center;
+    }
+
+    #con2 img
+    {
+        width: 80%;
+        height: 260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:510px)
+{
+    .art1
+    {
+        background: red;
+    }
+
+    #portada
+    {
+        height: 245px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 17px;
+        padding-left: 9%;
+        padding-right: 9%;
+        line-height: 25px;
+    }
+
+    .content h2
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: auto;
+        text-align: justify;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        margin-bottom: 25px;
+        line-height: 25px;
+        font-size: 17.2px;
+    }
+
+    #con2 img
+    {
+        width: 80%;
+        height: 280px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:540px)
+{
+
+    .art1
+    {
+        background: burlywood;
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 285px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 17px;
+        padding-left: 9%;
+        padding-right: 9%;
+        line-height: 25px;
+    }
+
+    .content h2
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: auto;
+        text-align: justify;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        margin-bottom: 25px;
+        line-height: 25px;
+        font-size: 17.2px;
+    }
+
+    #con2 img
+    {
+        width: 80%;
+        height: 280px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:620px)
+{
+    .art1
+    {
+        background: rgba(49,255,3,0.25);
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 300px;
+    }
+
+    #con2 img
+    {
+        width: 75%;
+        height: 290px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:750px)
+{
+    .art1
+    {
+        background: rgba(60,214,86,0.45);
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 340px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 18px;
+        padding-left: 12%;
+        padding-right: 12%;
+        line-height: 30px;
+    }
+
+    .content h2
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 30px;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+    }
+
+    #con2
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.8%;
+    }
+
+    #con2 p
+    {
+        width: 43%;
+        margin-bottom: 0px;
+    }
+
+    #con2 img
+    {
+        width: 45%;
+        height: 240px;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    .padre
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .padre .contenedor
+    {
+        width: 90%;
+        justify-content: center;
+    }
+    
+    .content .contenedor
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:850px)
+{
+
+    .art1
+    {
+        background: rgba(1,186,32,0.55);
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 340px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 18px;
+        padding-left: 12%;
+        padding-right: 12%;
+        line-height: 30px;
+    }
+
+    .content h2
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 30px;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+    }
+
+    #con2
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.8%;
+    }
+
+    #con2 p
+    {
+        width: 43%;
+        margin-bottom: 0px;
+    }
+
+    #con2 img
+    {
+        width: 45%;
+        height: 240px;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        line-height: 30px;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px)
+{
+    .art1
+    {
+        background: aqua;
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 420px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 22px;
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        line-height: 35px;
+    }
+
+    .content h2
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 35px;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con2
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.8%;
+    }
+
+    #con2 p
+    {
+        width: 43%;
+        margin-bottom: 0px;
+    }
+
+    #con2 img
+    {
+        width: 50%;
+        height: 260px;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .padre .contenedor
+    {
+        width: 85%;
+        justify-content: center;
+    }
+    
+    .content .contenedor
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1250px)
+{
+    .padre
+    {
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
+
+    .art1
+    {
+        background: dimgray;
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 420px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 22px;
+        padding-left: 12%;
+        padding-right: 12%;
+        line-height: 35px;
+    }
+
+    .content h2
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 35px;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con2
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.8%;
+    }
+
+    #con2 p
+    {
+        width: 43%;
+        margin-bottom: 0px;
+    }
+
+    #con2 img
+    {
+        width: 50%;
+        height: 300px;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .padre .contenedor
+    {
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .content .contenedor
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1400px)
+{
+    .padre
+    {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .art1
+    {
+        background: darkviolet;
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 480px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 22px;
+        padding-left: 14%;
+        padding-right: 14%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        line-height: 35px;
+    }
+
+    .content h2
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 35px;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con2
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.8%;
+    }
+
+    #con1
+    {
+        margin-top: 5%;
+    }
+
+    #con2 p
+    {
+        width: 43%;
+        margin-bottom: 0px;
+    }
+
+    #con2 img
+    {
+        width: 50%;
+        height: 320px;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .contenedor
+
+
+    .icon
+    {
+        width: 65%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1600px)
+{
+    .padre
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .art1
+    {
+        background: rgba(49,255,3,0.25);
+        color: aqua;
+        color: brown;
+        color: chartreuse;
+        color: darkgoldenrod;
+        color: black;
+    }
+
+    #portada
+    {
+        height: 500px;
+    }
+
+    #idea
+    {
+        text-align: justify;
+        font-size: 22px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        line-height: 35px;
+    }
+
+    .content h2
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 40px;
+    }
+
+    #con1, #con2, #con3
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    #con2
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3.8%;
+    }
+
+    #con1
+    {
+        margin-top: 5%;
+    }
+
+    #con2 p
+    {
+        width: 46%;
+        margin-bottom: 0px;
+    }
+
+    #con2 img
+    {
+        width: 40%;
+        height: 320px;
+    }
+
+    #con1 p, #con2 p, #con3 p
+    {
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .contenedor
+
+
+    .icon
+    {
+        width: 60%;
+        height: 160px;
+    }
+}
