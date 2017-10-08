@@ -19,10 +19,17 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         margin-top: 60px;
         padding-bottom: 20px;
         background: red;
+    }
+
+    .video
+    {
+        background-image: url(../img/artmante.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 170px;
     }
 
     .inicio
@@ -54,7 +61,8 @@
     .face
     {
         text-align: center;
-        width: 100%;
+        background: blue;
+        display: flex;
     }
 
     .infor
@@ -101,7 +109,15 @@
     .contenedor
     {
         width: 92%;
-    } 
+    }
+
+    .video
+    {
+        background-image: url(../img/artmante.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 300px;
+    }
 }
 
 
@@ -132,33 +148,47 @@
 
 @media (min-width:750px)
 {
+    main .mapa
+    {
+        align-items: flex-start;
+    }
+    
     .caja
     {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
         margin-top: 60px;
         padding-bottom: 0px;
         background: red;
     }
     
+    .video
+    {
+        background-image: url(../img/artmante.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 270px;
+    }
+
     .face
     {
+        width: 45%;
         text-align: center;
-        width: 80%;
-        background: green;
+        background: blue;
+        overflow: hidden;
     }
-    
+
     .superior
     {
-        width: 100%;
+        width: 80%;
         background: yellow;
         padding-right: 10%;
     }
-    
+
     .mapa
     {
+        width: 65%;
         margin-top: 25px;
         height: 500px;
         background-image: url(../img/limpieza.JPG);
@@ -184,6 +214,14 @@
     {
         width: 85%;
     }
+    
+    .video
+    {
+        background-image: url(../img/artmante.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 320px;
+    }
 }
 
 
@@ -197,5 +235,20 @@
     .contenedor
     {
         width: 80%;
+    }
+    
+    .superior
+    {
+        width: 80%;
+        background: yellow;
+        padding-right: 7%;
+    }
+    
+    .video
+    {
+        background-image: url(../img/artmante.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 360px;
     }
 }
