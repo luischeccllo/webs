@@ -24,12 +24,38 @@
         background: red;
     }
 
+    .misvis
+    {
+        padding: 5%;
+    }
+
+    .mision h2, .vision h2
+    {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .mision
+    {
+        margin-bottom: 25px;
+    }
+
+    .mision p, .vision p
+    {
+        text-align: justify;
+        line-height: 30px;
+    }
+
     .video
     {
-        background-image: url(../img/artmante.jpg);
-        background-size: 100% 100%;
         width: 100%;
-        height: 170px;
+        height: 100%;
+        display: flex;
+    }
+
+    .video2, .video3
+    {
+        display: none;
     }
 
     .inicio
@@ -44,7 +70,7 @@
         text-align: justify;
     }
 
-    .inicio h1
+    .inicio h1, .inicio h3
     {
         font-size: 30px;
         text-align: center;
@@ -58,11 +84,91 @@
         line-height: 25px;
     }
 
-    .face
+    .intro
+    {
+        padding: 5%;
+    }
+
+    .intro h3
     {
         text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .intro p
+    {
+        text-align: justify;
+        line-height: 30px;
+    }
+
+    .face
+    {
         background: blue;
         display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .twitter-tweet
+    {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .gplus
+    {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .gplus div
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .face p
+    {
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+        background: red;
+        text-align: center;
+    }
+
+    .inst
+    {
+        display: block;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 15px;
+        width: 100%;
+        background: red;
+        text-align: center;
+    }
+
+    .instagram
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background: yellow;
+    }
+
+    .instagram2
+    {
+        display: none;
+    }
+
+    .snapwidget-widget
+    {
+        background: blue;
+        width: 340px;
+        height: 590px;
     }
 
     .infor
@@ -91,10 +197,28 @@
 
     .mapa
     {
-        margin-top: 15px;
-        height: 300px;
-        background-image: url(../img/limpieza.JPG);
+        display: flex;
+        width: 100%;
         margin-bottom: 15px
+    }
+
+    .mapat, .mapac
+    {
+        display: none;
+    }
+
+    .superior
+    {
+        height: auto;
+        background: green;
+        border: 1px solid black;
+    }
+
+    .inferior
+    {
+        background: white;
+        border: 1px solid black;
+        height: 100%;
     }
 
     .contenedor
@@ -111,14 +235,66 @@
         width: 92%;
     }
 
-    .video
+    .face
     {
-        background-image: url(../img/artmante.jpg);
-        background-size: 100% 100%;
         width: 100%;
-        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapa
+    {
+        justify-content: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:460px)
+{
+    .contenedor
+    {
+        width: 92%;
+    }
+
+    .face
+    {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .snapwidget-widget
+    {
+        background: blue;
+        width:380px;
+        height: 630px;
+    }
+
+    .mapa
+    {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -131,11 +307,32 @@
         width: 90%;
     }
 
-    .mapa
+    .video
     {
-        margin-top: 15px;
-        height: 400px;
-        background-image: url(../img/limpieza.JPG);
+        display: none;
+    }
+
+    .snapwidget-widget
+    {
+        background: blue;
+        width: 420px;
+        height: 660px;
+    }
+
+    .mapa, .mapac
+    {
+        display: none;
+    }
+
+    .mapat
+    {
+        display: flex;
+    }
+
+    .video2
+    {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -148,53 +345,141 @@
 
 @media (min-width:750px)
 {
-    main .mapa
+    .contenedor
     {
-        align-items: flex-start;
+        width: 90%;
     }
-    
-    .caja
+
+    .mapat
     {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 60px;
-        padding-bottom: 0px;
-        background: red;
+        justify-content: center;
     }
-    
-    .video
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:850px)
+{
+    .contenedor
     {
-        background-image: url(../img/artmante.jpg);
-        background-size: 100% 100%;
-        width: 100%;
-        height: 270px;
+        width: 90%;
+    }
+
+    .misvis
+    {
+        padding: 5%;
+    }
+
+    .mision, .vision
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+    }
+
+    .vision
+    {
+        margin-top: 30px;
+    }
+
+    .mision h2, .vision h2
+    {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+
+    .mision p, .vision p
+    {
+        text-align: justify;
+        line-height: 30px;
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .inicio
+    {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+
+    .inicio p
+    {
+        padding-left: 9%;
+        padding-right: 9%;
+        line-height: 35px;
+        font-size: 18.5px;
+    }
+
+    .especifi
+    {
+        text-align: center;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #ubi
+    {
+        text-align: justify;
+        padding-left: 13.5%;
+        padding-right: 13.5%;
     }
 
     .face
     {
-        width: 45%;
+        display: flex;
+        flex-direction: column;
         text-align: center;
-        background: blue;
         overflow: hidden;
+        height: 420px;
+    }
+
+    .instagram
+    {
+        display: none;
+    }
+
+    .instagram2
+    {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: auto;
+    }
+
+    .instagram2 iframe
+    {
+        display: flex;
+        width: 100%;
+    }
+
+    .caja
+    {
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .superior
     {
-        width: 80%;
-        background: yellow;
-        padding-right: 10%;
+        width: 65%;
     }
 
-    .mapa
+    .inferior
     {
-        width: 65%;
-        margin-top: 25px;
-        height: 500px;
-        background-image: url(../img/limpieza.JPG);
+        width: 32%;
     }
 }
-
 
 
 
@@ -214,13 +499,11 @@
     {
         width: 85%;
     }
-    
-    .video
+
+    .instagram2
     {
-        background-image: url(../img/artmante.jpg);
-        background-size: 100% 100%;
-        width: 100%;
-        height: 320px;
+        height: 410px;
+        overflow: hidden;
     }
 }
 
@@ -236,19 +519,35 @@
     {
         width: 80%;
     }
-    
+
     .superior
     {
-        width: 80%;
+        width: 68%;
         background: yellow;
-        padding-right: 7%;
     }
-    
-    .video
+
+    .inferior
     {
-        background-image: url(../img/artmante.jpg);
-        background-size: 100% 100%;
-        width: 100%;
-        height: 360px;
+        width: 29%;
+    }
+
+    .video, .video2
+    {
+        display: none;
+    }
+
+    .video3
+    {
+        display: flex;
+    }
+
+    .mapa, .mapat
+    {
+        display: none;
+    }
+
+    .mapac
+    {
+        display: flex;
     }
 }
