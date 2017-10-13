@@ -1,3 +1,13 @@
+/*font-family: 'Luckiest Guy', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Boogaloo', cursive;
+font-family: 'Fredoka One', cursive;*/
+
+
+
+
 /*el pie de la web*/
 
 .sociales
@@ -31,7 +41,8 @@
 #redes p
 {
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 27px;
+    font-family: 'Boogaloo', cursive;
 }
 
 .iconos
@@ -69,21 +80,22 @@
 .contactos h3
 {
     text-align: center;
-    font-size: 25px;
+    font-size: 26px;
     margin-bottom: 20px;
+    font-family: 'Boogaloo', cursive;
 }
 
 .contactos li
 {
     text-align: justify;
-    margin-bottom: 15px;
+    line-height: 30PX;
+    font-family: 'Cabin', sans-serif;
 }
 
 .datos
 {
     padding: 10px;
-    border: 1px solid white;
-    border-radius: 10px;
+    border-top: 1px solid white;
     padding: 20px;
 }
 
@@ -122,20 +134,345 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        padding-left: 3.5%;
+        padding-left: 5.5%;
         padding-right: 2.5%;
     }
 
     #redes
     {
-        width: 40%;
+        width: 30%;
         height: 230px;
 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 1px solid white;
+    }
+
+    #redes p
+    {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .iconos
+    {
+        width: 90%;
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .iconos label
+    {
+        cursor: pointer;
+        font-size: 60px;
+    }
+
+    .iconos a
+    {
+        color: white;
+        cursor: pointer;
+    }
+
+
+
+    /*datos de la empresa que deben de saber*/
+    .contactos
+    {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        height: 230px;
+        width: 55%;
+        border-left: 1px solid white;
+    }
+
+    .contactos h3
+    {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contactos li
+    {
+        text-align: justify;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .datos
+    {
+        padding: 10px;
+        border-top: 0px;
+        padding: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width:960px)
+{
+    .sociales
+    {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+        background: black;
+        color: #fff;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 5.5%;
+        padding-right: 2.5%;
+    }
+
+    #redes
+    {
+        width: 30%;
+        height: 230px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #redes p
+    {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .iconos
+    {
+        width: 65%;
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .iconos label
+    {
+        cursor: pointer;
+        font-size: 60px;
+    }
+
+    .iconos a
+    {
+        color: white;
+        cursor: pointer;
+    }
+
+
+
+    /*datos de la empresa que deben de saber*/
+    .contactos
+    {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        height: 230px;
+        width: 55%;
+    }
+
+    .contactos h3
+    {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contactos li
+    {
+        text-align: justify;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .datos
+    {
+        padding: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px)
+{
+    .sociales
+    {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+        background: black;
+        color: #fff;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 7.5%;
+        padding-right: 3.5%;
+    }
+
+    #redes
+    {
+        width: 25%;
+        height: 230px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #redes p
+    {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .iconos
+    {
+        width: 80%;
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .iconos label
+    {
+        cursor: pointer;
+        font-size: 60px;
+    }
+
+    .iconos a
+    {
+        color: white;
+        cursor: pointer;
+    }
+
+
+
+    /*datos de la empresa que deben de saber*/
+    .contactos
+    {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        height: 230px;
+        width: 55%;
+    }
+
+    .contactos h3
+    {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contactos li
+    {
+        text-align: justify;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .datos
+    {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1250px)
+{
+    .sociales
+    {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+        background: black;
+        color: #fff;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 9.75%;
+        padding-right: 9.2%;
+    }
+
+    #redes
+    {
+        width: 25%;
+        height: 230px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #redes p
@@ -196,345 +533,6 @@
 
     .datos
     {
-        padding: 10px;
-        border: 1px solid white;
-        border-radius: 10px;
-        padding: 20px;
-    }
-
-}
-
-
-
-
-
-
-
-@media (min-width:960px)
-{
-    .sociales
-    {
-        position: absolute;
-        width: 100%;
-        height: auto;
-        padding-top: 25px;
-        padding-bottom: 25px;
-
-        background: black;
-        color: #fff;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        padding-left: 3.5%;
-        padding-right: 2.5%;
-    }
-
-    #redes
-    {
-        width: 40%;
-        height: 230px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid white;
-    }
-
-    #redes p
-    {
-        margin-bottom: 30px;
-        font-size: 22px;
-    }
-
-    .iconos
-    {
-        width: 65%;
-        height: auto;
-
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .iconos label
-    {
-        cursor: pointer;
-        font-size: 60px;
-    }
-
-    .iconos a
-    {
-        color: white;
-        cursor: pointer;
-    }
-
-
-
-    /*datos de la empresa que deben de saber*/
-    .contactos
-    {
-        display: flex;
-        padding-left: 10px;
-        padding-right: 10px;
-        justify-content: center;
-        height: 230px;
-        width: 55%;
-    }
-
-    .contactos h3
-    {
-        text-align: center;
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-
-    .contactos li
-    {
-        text-align: justify;
-        margin-bottom: 15px;
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .datos
-    {
-        padding: 10px;
-        border: 1px solid white;
-        border-radius: 10px;
-        padding: 20px;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:1000px)
-{
-    .sociales
-    {
-        position: absolute;
-        width: 100%;
-        height: auto;
-        padding-top: 25px;
-        padding-bottom: 25px;
-
-        background: black;
-        color: #fff;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        padding-left: 4%;
-        padding-right: 3.5%;
-    }
-
-    #redes
-    {
-        width: 32%;
-        height: 230px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid white;
-    }
-
-    #redes p
-    {
-        margin-bottom: 30px;
-        font-size: 22px;
-    }
-
-    .iconos
-    {
-        width: 60%;
-        height: auto;
-
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .iconos label
-    {
-        cursor: pointer;
-        font-size: 60px;
-    }
-
-    .iconos a
-    {
-        color: white;
-        cursor: pointer;
-    }
-
-
-
-    /*datos de la empresa que deben de saber*/
-    .contactos
-    {
-        display: flex;
-        padding-left: 10px;
-        padding-right: 10px;
-        justify-content: center;
-        height: 230px;
-        width: 55%;
-    }
-
-    .contactos h3
-    {
-        text-align: center;
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-
-    .contactos li
-    {
-        text-align: justify;
-        margin-bottom: 15px;
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .datos
-    {
-        padding: 10px;
-        border: 1px solid white;
-        border-radius: 10px;
-        padding: 20px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:1250px)
-{
-    .sociales
-    {
-        position: absolute;
-        width: 100%;
-        height: auto;
-        padding-top: 25px;
-        padding-bottom: 25px;
-
-        background: black;
-        color: #fff;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 9.75%;
-        padding-right: 9.2%;
-    }
-
-    #redes
-    {
-        width: 30%;
-        height: 230px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid white;
-    }
-
-    #redes p
-    {
-        margin-bottom: 30px;
-        font-size: 22px;
-    }
-
-    .iconos
-    {
-        width: 60%;
-        height: auto;
-
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .iconos label
-    {
-        cursor: pointer;
-        font-size: 60px;
-    }
-
-    .iconos a
-    {
-        color: white;
-        cursor: pointer;
-    }
-
-
-
-    /*datos de la empresa que deben de saber*/
-    .contactos
-    {
-        display: flex;
-        padding-left: 10px;
-        padding-right: 10px;
-        justify-content: center;
-        height: 230px;
-        width: 55%;
-    }
-
-    .contactos h3
-    {
-        text-align: center;
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-
-    .contactos li
-    {
-        text-align: justify;
-        margin-bottom: 15px;
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .datos
-    {
-        padding: 10px;
-        border: 1px solid white;
-        border-radius: 10px;
         padding: 20px;
     }
 }
@@ -588,7 +586,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 1px solid white;
     }
 
     #redes p
@@ -599,7 +596,7 @@
 
     .iconos
     {
-        width: 60%;
+        width: 50%;
         height: auto;
 
         display: flex;
@@ -649,9 +646,6 @@
 
     .datos
     {
-        padding: 10px;
-        border: 1px solid white;
-        border-radius: 10px;
         padding: 20px;
     }
 

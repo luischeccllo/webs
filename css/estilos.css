@@ -3,6 +3,14 @@
 @import url(slider.css);
 
 
+/*font-family: 'Luckiest Guy', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Boogaloo', cursive;
+font-family: 'Fredoka One', cursive;*/
+
+
 @media (min-width:320px)
 {
     *
@@ -44,12 +52,10 @@
     .info .contenedor
     {
         width: 95%;
-        background: white;
     }
 
     .info
     {
-        background: red;
         height: auto;
         display: flex;
         align-items: center;
@@ -68,12 +74,15 @@
     {
         text-align: center;
         margin-bottom: 20px;
+        color: #146E14;
+        font-family: 'Lato', sans-serif;
     }
 
     .presentacion p
     {
         text-align: justify;
-        line-height: 22px;
+        line-height: 25px;
+        font-family: 'Cabin', sans-serif;
     }
 
     .presentacion
@@ -102,8 +111,10 @@
     .part1 h2, .part2 h2, .part3 h2
     {
         text-align: center;
+        color: #146E14;
         margin-bottom: 15px;
         font-size: 28px;
+        font-family: 'Slabo 27px', serif;
     }
 
     .part1 p, .part2 p, .part3 p
@@ -111,6 +122,7 @@
         text-align: justify;
         line-height: 25px;
         font-size: 18px;
+        font-family: 'Cabin', sans-serif;
     }
 
     .part1, .part2
@@ -125,7 +137,7 @@
 
     .promocion
     {
-        background: #014205;
+        background: #146E14;
         height: auto;
         width: 100%;
         padding-top: 30px;
@@ -135,7 +147,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .promocion .contenedor
     {
         width: 95%;
@@ -169,11 +181,14 @@
     {
         margin-bottom: 15px;
         text-align: center;
+        font-family: 'Fredoka One', cursive;
+        color: #146E14;
     }
 
     .detallesn p
     {
         margin-bottom: 6px;
+        font-family: 'Cabin', sans-serif;
     }
 
     .detallesn #carac
@@ -211,12 +226,15 @@
         margin-bottom: 13px;
         text-align: center;
         font-size: 20px;
+        font-family: 'Fredoka One', cursive;
+        color: #146E14;
     }
 
     .detallesp p
     {
         margin-bottom: 6px;
         font-size: 14.5px;
+        font-family: 'Cabin', sans-serif;
     }
 
     .detallesp #carac2
@@ -244,11 +262,6 @@ verse compacto la pagina */
 
 @media (min-width:350px)
 {
-    .marca
-    {
-        background: red;
-    }
-
     .presentacion
     {
         margin-bottom: 20px;
@@ -278,11 +291,6 @@ verse compacto la pagina */
 
 @media (min-width:410px)
 {
-    .marca
-    {
-        background: blue;
-    }
-    
     .info .contenedor
     {
         width: 92%;
@@ -301,7 +309,7 @@ verse compacto la pagina */
         padding-left: 5%;
         padding-right: 5%;
     }
-    
+
     .presentacion p
     {
         font-size: 18px;
@@ -324,7 +332,7 @@ verse compacto la pagina */
         border-radius: 50%;
         margin-right: 5%;
     }
-    
+
     .promocion
     {
         padding-left: 2%;
@@ -355,23 +363,18 @@ verse compacto la pagina */
 
 @media (min-width:540px)
 {
-    .marca
-    {
-        background: aqua;
-    }
-    
     .info .contenedor
     {
         width: 90%;
     }
-    
+
     .presentacion
     {
         margin-bottom: 20px;
         padding-left: 15%;
         padding-right: 15%;
     }
-    
+
     .presentacion p
     {
         line-height: 32px;
@@ -380,28 +383,27 @@ verse compacto la pagina */
 
     .mipart
     {
-        background: blue;
         margin-bottom: 25px;
         padding-left: 7%;
         padding-right: 7%;
     }
-    
+
     .part1 p, .part2 p, .part3 p
     {
         line-height: 30px;
     }
-    
+
     .part1 h2, .part2 h2, .part3 h2
     {
         margin-top: 15px;
     }
-    
+
     .promocion
     {
         padding-left: 2.5%;
         padding-right: 2.5%;
     }
-    
+
     .normal img, .premiun img
     {
         height: 260px;
@@ -451,11 +453,7 @@ verse compacto la pagina */
 
 @media (min-width:750px)
 {
-    .marca
-    {
-        background: black;
-    }
-    
+
     .info
     {
         padding-top: 30px;
@@ -464,7 +462,6 @@ verse compacto la pagina */
 
     .mipart
     {
-        background: blue;
         margin-bottom: 25px;
         padding-left: 6%;
         padding-right: 6%;
@@ -500,38 +497,6 @@ verse compacto la pagina */
 
 
 
-/*@media (min-width:900px)
-{
-    .marca
-    {
-        background: white;
-    }
-
-    .mipart
-    {
-        background: blue;
-        margin-bottom: 25px;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    .promocion
-    {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .normal img, .premiun img
-    {
-        height: 290px;
-    }
-
-    .detallesn, .detallesp
-    {
-        height: 290px;
-    }
-}*/
-
 
 
 
@@ -545,16 +510,11 @@ verse compacto la pagina */
 
 @media (min-width:1000px)
 {
-    .marca
-    {
-        background: violet;
-    }
-    
     .info .contenedor
     {
         width: 85%;
     }
-    
+
     .presentacion
     {
         margin-bottom: 30px;
@@ -562,12 +522,12 @@ verse compacto la pagina */
         padding-left: 15%;
         padding-right: 15%;
     }
-    
+
     .presentacion h2
     {
         text-align: center;
     }
-    
+
     .presentacion p
     {
         text-align: center;
@@ -579,13 +539,12 @@ verse compacto la pagina */
 
     .mipart
     {
-        background: blue;
         margin-bottom: 25px;
         padding-left: 0%;
         padding-right: 0%;
         display: flex; 
     }
-    
+
     .part1, .part2
     {
         margin-bottom: 0px;
@@ -608,13 +567,13 @@ verse compacto la pagina */
         height: 120px;
         border-radius: 50%;
     }
-    
+
     .part1 p, .part2 p, .part3 p
     {
         padding-left: 10%;
         padding-right: 10%;
     }
-    
+
     .part1 h2, .part2 h2, .part3 h2
     {
         margin-bottom: 25px;
@@ -706,22 +665,17 @@ verse compacto la pagina */
 
 @media (min-width:1250px)
 {
-    .marca
-    {
-        background: darkred;
-    }
-    
     .info
     {
         padding-top: 35px;
         padding-bottom: 35px;
     }
-    
+
     .info .contenedor
     {
         width: 80%;
     }
-    
+
     .presentacion
     {
         margin-bottom: 48px;
@@ -729,13 +683,13 @@ verse compacto la pagina */
         padding-left: 15%;
         padding-right: 15%;
     }
-    
+
     .presentacion h2
     {
         text-align: center;
         font-size: 45px;
     }
-    
+
     .presentacion p
     {
         text-align: center;
@@ -744,7 +698,7 @@ verse compacto la pagina */
         padding-left: 8%;
         padding-right: 8%;
     }
-    
+
     .mipart
     {
         padding-left: 8%;
@@ -759,7 +713,7 @@ verse compacto la pagina */
         padding-left: 8.75%;
         padding-right: 8.75%;
     }
-    
+
     .part1 p, .part2 p, .part3 p
     {
         padding-left: 10%;
@@ -832,11 +786,6 @@ verse compacto la pagina */
 
 @media (min-width:1600px)
 {
-    .marca
-    {
-        background: blue;
-    }
-
     .promocion
     {
         flex-direction: row;
@@ -845,13 +794,13 @@ verse compacto la pagina */
         padding-left: 13%;
         padding-right: 13%;
     }
-    
+
     .mipart
     {
         padding-left: 12%;
         padding-right: 12%;
     }
-    
+
     .part1 p, .part2 p, .part3 p
     {
         padding-left: 10%;

@@ -1,3 +1,10 @@
+/*font-family: 'Luckiest Guy', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Boogaloo', cursive;
+font-family: 'Fredoka One', cursive;*/
+
 .encabezado
 {
     display: flex;
@@ -28,16 +35,16 @@
 .marca h1
 {
     color: #146E14;
-    font-size: 27px;
+    font-size: 30px;
     margin-left: 5px;
+    font-family: 'Fredoka One', cursive;
 }
 
 .mibot
 {
     align-items: center;
-    font-size: 27px;
+    font-size: 30px;
     height: auto;
-    margin-top: -3px;
 }
 
 .icon-menu
@@ -111,7 +118,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: blue;
     } 
 }
 
@@ -127,7 +133,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: blue;
     }
 }
 
@@ -148,7 +153,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: blue;
     }
 
     .menu
@@ -169,7 +173,8 @@
         height: 60px;
         font-size: 22px;
         padding: 17px;
-        color: #146E14;
+        color: #479C3B;
+        font-family: 'Cabin', sans-serif;
     }
 
     header label
@@ -203,7 +208,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: blue;
     }
 }
 
