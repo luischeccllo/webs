@@ -1,8 +1,8 @@
 @import url(menu.css);
 @import url(estilos.css);
-@import url(indexresponsive.css);
-@import url(estilotips.css);
+@import url(estilodise%C3%B1o.css);
 @import url(estilocuidados.css);
+@import url(estilotips.css);
 @import url(estilomantenimiento.css);
 
 /*font-family: 'Luckiest Guy', cursive;
@@ -20,5 +20,12 @@ font-family: 'Fredoka One', cursive;*/
     #con3
     {
         margin-top: 25px;
+    }
+    
+    #con1 p, #con2 p, #con3 p
+    {
+        margin-bottom: 25px;
+        line-height: 30px;
+        font-family: 'Cabin', sans-serif;
     }
 }

@@ -1,6 +1,5 @@
 @import url(menu.css);
 @import url(estilos.css);
-@import url(indexresponsive.css);
 @import url(estilotips.css);
 @import url(estilocuidados.css);
 @import url(estilomantenimiento.css);
@@ -14,14 +13,56 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:320px)
 {
+    #con4 p
+    {
+        font-family: 'Cabin', sans-serif;
+        line-height: 28px;
+    }
+
     #con5
     {
         text-align: justify;
+        font-family: 'Cabin', sans-serif;
+        line-height: 28px;
+    }
+
+    .padre
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .padre .contenedor
+    {
+        width: 95%;
     }
 }
 
 
 
+
+
+
+
+@media (min-width:410px)
+{
+    .padre .contenedor
+    {
+        width: 92%;
+    }
+}
+
+
+
+
+
+@media (min-width:540px)
+{
+    .padre .contenedor
+    {
+        width: 90%;
+    }
+}
 
 
 
@@ -39,23 +80,45 @@ font-family: 'Fredoka One', cursive;*/
 {
     #con2
     {
-        
+
     }
-    
+
     #con5 p
     {
         text-align: justify;
         width: 85%;
     }
-    
+
     #con2 #debajo
     {
         width: 85%;
         margin-bottom: 25px;
     }
-    
+
     #con4
     {
         margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px)
+{
+    .padre .contenedor
+    {
+        width: 85%;
     }
 }

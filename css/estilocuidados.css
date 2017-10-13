@@ -36,7 +36,7 @@ font-family: 'Fredoka One', cursive;*/
     #portada
     {
         width: 100%;
-        height: 220px;
+        height: 210px;
     }
 
     #idea
@@ -45,9 +45,10 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 17px;
         padding-left: 7%;
         padding-right: 7%;
-        padding-top: 7%;
+        padding-top: 5%;
         padding-bottom: 7%;
-        line-height: 20px;
+        line-height: 25px;
+        font-family: 'Cabin', sans-serif;
     }
 
     .content h2
@@ -56,6 +57,8 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 24px;
         padding-left: 5%;
         padding-right: 5%;
+        color: #146E14;
+        font-family: 'Lato', sans-serif;
     }
 
     #con1
@@ -91,7 +94,8 @@ font-family: 'Fredoka One', cursive;*/
     #con1 p, #con2 p, #con3 p
     {
         margin-bottom: 25px;
-        line-height: 25px;
+        line-height: 28px;
+        font-family: 'Cabin', sans-serif;
     }
 }
 
@@ -116,11 +120,6 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:380px)
 {
-    .art1
-    {
-        background: green;
-    }
-
     #portada
     {
         height: 230px;
@@ -132,7 +131,6 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 17px;
         padding-left: 9%;
         padding-right: 9%;
-        line-height: 25px;
     }
 
     .content h2
@@ -152,7 +150,6 @@ font-family: 'Fredoka One', cursive;*/
     #con1 p, #con2 p, #con3 p
     {
         margin-bottom: 25px;
-        line-height: 25px;
         font-size: 17.2px;
     }
 }
@@ -184,11 +181,6 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:410px)
 {
-    .art1
-    {
-        background: blue;
-    }
-
     #portada
     {
         height: 245px;
@@ -200,7 +192,6 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 17px;
         padding-left: 9%;
         padding-right: 9%;
-        line-height: 25px;
     }
 
     .content h2
@@ -220,7 +211,6 @@ font-family: 'Fredoka One', cursive;*/
     #con1 p, #con2 p, #con3 p
     {
         margin-bottom: 25px;
-        line-height: 25px;
         font-size: 17.2px;
     }
 
@@ -264,11 +254,6 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:510px)
 {
-    .art1
-    {
-        background: red;
-    }
-
     #portada
     {
         height: 245px;
@@ -280,7 +265,7 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 17px;
         padding-left: 9%;
         padding-right: 9%;
-        line-height: 25px;
+        line-height: 30px;
     }
 
     .content h2
@@ -300,7 +285,7 @@ font-family: 'Fredoka One', cursive;*/
     #con1 p, #con2 p, #con3 p
     {
         margin-bottom: 25px;
-        line-height: 25px;
+        line-height: 30px;
         font-size: 17.2px;
     }
 
@@ -333,17 +318,6 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:540px)
 {
-
-    .art1
-    {
-        background: burlywood;
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
-    }
-
     #portada
     {
         height: 285px;
@@ -355,7 +329,6 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 17px;
         padding-left: 9%;
         padding-right: 9%;
-        line-height: 25px;
     }
 
     .content h2
@@ -375,7 +348,6 @@ font-family: 'Fredoka One', cursive;*/
     #con1 p, #con2 p, #con3 p
     {
         margin-bottom: 25px;
-        line-height: 25px;
         font-size: 17.2px;
     }
 
@@ -411,16 +383,6 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:620px)
 {
-    .art1
-    {
-        background: rgba(49,255,3,0.25);
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
-    }
-
     #portada
     {
         height: 300px;
@@ -461,18 +423,8 @@ font-family: 'Fredoka One', cursive;*/
 
 
 
-@media (min-width:750px)
+@media (min-width:720px)
 {
-    .art1
-    {
-        background: rgba(60,214,86,0.45);
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
-    }
-
     #portada
     {
         height: 340px;
@@ -537,7 +489,7 @@ font-family: 'Fredoka One', cursive;*/
         width: 90%;
         justify-content: center;
     }
-    
+
     .content .contenedor
     {
         width: 100%;
@@ -566,17 +518,6 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:850px)
 {
-
-    .art1
-    {
-        background: rgba(1,186,32,0.55);
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
-    }
-
     #portada
     {
         height: 340px;
@@ -662,16 +603,6 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:1000px)
 {
-    .art1
-    {
-        background: aqua;
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
-    }
-
     #portada
     {
         height: 420px;
@@ -732,7 +663,7 @@ font-family: 'Fredoka One', cursive;*/
         width: 85%;
         justify-content: center;
     }
-    
+
     .content .contenedor
     {
         width: 100%;
@@ -768,16 +699,6 @@ font-family: 'Fredoka One', cursive;*/
     {
         padding-left: 3.5%;
         padding-right: 3.5%;
-    }
-
-    .art1
-    {
-        background: dimgray;
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
     }
 
     #portada
@@ -838,7 +759,7 @@ font-family: 'Fredoka One', cursive;*/
         width: 80%;
         justify-content: center;
     }
-    
+
     .content .contenedor
     {
         width: 100%;
@@ -884,16 +805,6 @@ font-family: 'Fredoka One', cursive;*/
     {
         padding-left: 6%;
         padding-right: 6%;
-    }
-
-    .art1
-    {
-        background: darkviolet;
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
     }
 
     #portada
@@ -1002,16 +913,6 @@ font-family: 'Fredoka One', cursive;*/
     {
         padding-left: 10%;
         padding-right: 10%;
-    }
-
-    .art1
-    {
-        background: rgba(49,255,3,0.25);
-        color: aqua;
-        color: brown;
-        color: chartreuse;
-        color: darkgoldenrod;
-        color: black;
     }
 
     #portada

@@ -1,6 +1,5 @@
 @import url(menu.css);
 @import url(estilos.css);
-@import url(indexresponsive.css);
 @import url(estilocuidados.css);
 
 
@@ -30,7 +29,7 @@ font-family: 'Fredoka One', cursive;*/
     {
         display: flex;
         flex-direction: column;
-
+        font-family: 'Cabin', sans-serif;
         padding-left: 2.5%;
         padding-right: 2.5%;
         height: auto;
@@ -443,7 +442,6 @@ font-family: 'Fredoka One', cursive;*/
     {
         padding-top: 5%;
         padding-bottom: 5%;
-        background: red;
         line-height: 40px;
     }
 }
