@@ -120,7 +120,7 @@ font-family: 'Fredoka One', cursive;*/
     .part1 p, .part2 p, .part3 p
     {
         text-align: justify;
-        line-height: 25px;
+        line-height: 30px;
         font-size: 18px;
         font-family: 'Cabin', sans-serif;
     }

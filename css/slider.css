@@ -4,6 +4,11 @@
     height: 230px;
 }
 
+.segimg
+{
+    display: none;
+}
+
 #slider
 {
     width: 100%;
@@ -82,6 +87,24 @@
     .banner, #slider, #slider img
     {
         height: 380px;
+    }
+}
+
+@media (min-width:850px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 380px;
+    }
+
+    .segimg
+    {
+        display: flex;
+    }
+    
+    .primg
+    {
+        display: none;
     }
 }
 
