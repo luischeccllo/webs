@@ -78,13 +78,13 @@ font-family: 'Fredoka One', cursive;*/
         text-align: justify;
     }
 
-    .inicio h1, .infor h2
+    .inicio h1
     {
         font-size: 30px;
         text-align: center;
         margin-bottom: 20px;
         color: #146E14;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Fredoka One', sans-serif;
     }
 
     .inicio p
@@ -92,6 +92,14 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 17px;
         line-height: 28px;
         font-family: 'Cabin', sans-serif;
+    }
+
+    #neg
+    {
+        text-decoration: underline;
+        font-size: 22px;
+        font-weight: bold;
+        color: #146E14;
     }
 
     .intro
@@ -102,16 +110,9 @@ font-family: 'Fredoka One', cursive;*/
     .intro h3
     {
         text-align: center;
-        margin-bottom: 15px;
+        font-size: 30px;
         color: #146E14;
-        font-family: 'Lato', sans-serif;
-    }
-
-    .intro p
-    {
-        text-align: justify;
-        line-height: 30px;
-        font-family: 'Cabin', sans-serif;
+        font-family: 'Fredoka One', sans-serif;
     }
 
     .face
@@ -121,13 +122,13 @@ font-family: 'Fredoka One', cursive;*/
         text-align: center;
         margin-top: 10px;
     }
-    
+
     .twitter-tweet
     {
         display: flex;
         justify-content: center;
     }
-    
+
     .gplus
     {
         display: flex;
@@ -135,7 +136,7 @@ font-family: 'Fredoka One', cursive;*/
         overflow: hidden;
         margin-top: 10px;
     }
-    
+
     .gplus div
     {
         display: flex;
@@ -298,6 +299,12 @@ font-family: 'Fredoka One', cursive;*/
     {
         justify-content: center;
     }
+    
+    .misvis
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
 
@@ -343,6 +350,20 @@ font-family: 'Fredoka One', cursive;*/
         display: flex;
         justify-content: center;
     }
+    
+    .misvis
+    {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    
+    .mision p, .vision p
+    {
+        text-align: justify;
+        line-height: 35px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 18px;
+    }
 }
 
 
@@ -362,6 +383,12 @@ font-family: 'Fredoka One', cursive;*/
     .mapat
     {
         justify-content: center;
+    }
+    
+    .misvis
+    {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 
@@ -473,7 +500,7 @@ font-family: 'Fredoka One', cursive;*/
         display: flex;
         width: 100%;
     }
-    
+
     .twitter-tweet
     {
         display: flex;
@@ -523,6 +550,20 @@ font-family: 'Fredoka One', cursive;*/
         height: 380px;
         overflow: hidden;
     }
+    
+    .misvis
+    {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    
+    .mision p, .vision p
+    {
+        text-align: justify;
+        line-height: 35px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+    }
 }
 
 
@@ -533,7 +574,7 @@ font-family: 'Fredoka One', cursive;*/
 
 @media (min-width:1250px)
 {
-    .contenedor
+    .enorme .contenedor
     {
         width: 80%;
     }
@@ -566,5 +607,38 @@ font-family: 'Fredoka One', cursive;*/
     .mapac
     {
         display: flex;
+    }
+
+    .iconos
+    {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1450px)
+{
+    .iconos
+    {
+        width: 65%;
     }
 }

@@ -81,7 +81,7 @@ font-family: 'Fredoka One', cursive;*/
     .presentacion p
     {
         text-align: justify;
-        line-height: 25px;
+        line-height: 30px;
         font-family: 'Cabin', sans-serif;
     }
 
@@ -102,7 +102,7 @@ font-family: 'Fredoka One', cursive;*/
 
     .part1 img, .part2 img, .part3 img
     {
-        margin-bottom: 18px;
+        margin-bottom: 30px;
         width: 120px;
         height: 120px;
         border-radius: 50%;
@@ -230,16 +230,13 @@ font-family: 'Fredoka One', cursive;*/
         color: #146E14;
     }
 
-    .detallesp p
-    {
-        margin-bottom: 6px;
-        font-size: 14.5px;
-        font-family: 'Cabin', sans-serif;
-    }
-
     .detallesp #carac2
     {
-        margin-left: 13px;
+        font-size: 14.5px;
+        font-family: 'Cabin', sans-serif;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 25px;
     }
 }
 
@@ -442,12 +439,66 @@ verse compacto la pagina */
         margin-left: 10px;
     }
 
+    .detallesp #carac2
+    {
+        font-size: 14.5px;
+        font-family: 'Cabin', sans-serif;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
     .normal, .premiun
     {
         display: flex;
         flex-direction: row;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:650px)
+{
+    .detallesp #carac2
+    {
+        font-size: 14.5px;
+        font-family: 'Cabin', sans-serif;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -479,9 +530,12 @@ verse compacto la pagina */
         font-size: 16px;
     }
 
-    .detallesp #carac2, .detallesn #carac
+    .detallesp #carac2
     {
-        margin-left: 15px;
+        font-family: 'Cabin', sans-serif;
+        text-align: justify;
+        font-size: 19px;
+        line-height: 200%;
     }
 }
 
@@ -542,7 +596,8 @@ verse compacto la pagina */
         margin-bottom: 25px;
         padding-left: 0%;
         padding-right: 0%;
-        display: flex; 
+        display: flex;
+        align-items: baseline;
     }
 
     .part1, .part2
@@ -640,6 +695,14 @@ verse compacto la pagina */
     .detallesp h3
     {
         margin-bottom: 25px;
+    }
+    
+    .detallesp #carac2
+    {
+        font-family: 'Cabin', sans-serif;
+        text-align: justify;
+        font-size: 20px;
+        line-height: 230%;
     }
 }
 
@@ -757,14 +820,17 @@ verse compacto la pagina */
         font-size: 130%;
     }
 
-    .detallesp p
+    .detallesp #carac2
     {
-        font-size: 127%;
+        font-family: 'Cabin', sans-serif;
+        text-align: justify;
+        font-size: 20px;
+        line-height: 210%;
     }
 
     .detallesp h3
     {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 }
 
