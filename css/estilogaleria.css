@@ -64,7 +64,7 @@ font-family: 'Fredoka One', cursive;*/
     .clases h2
     {
         text-align: center;
-        font-family: 'Slabo 27px', serif;
+        font-family: 'Fredoka One', cursive;
         color: #146E14;
         margin: auto;
         margin-bottom: 35px;
@@ -73,12 +73,12 @@ font-family: 'Fredoka One', cursive;*/
         padding-right: 5px;
 
         width: auto;
-        background: #242424;
+        background: #FAFF3D;
         padding-top: 15px;
         padding-bottom: 15px;
 
         border-radius: 10px;
-        box-shadow: 0 0 0 3px black;
+        box-shadow: 0 0 0 2px black;
     }
 
     .contexto
