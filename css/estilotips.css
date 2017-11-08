@@ -111,11 +111,12 @@ font-family: 'Fredoka One', cursive;*/
 
     .consejos a
     {
-        width: 130px;
+        width: 160px;
         margin-top: 20px;
-        font-size: 115%;
-        color: white;
-        background: black;
+        font-size: 125%;
+        font-family: 'Fredoka One', cursive;
+        color: #146E14;
+        background: #FAFF3D;
         padding: 10px;
         border: 1px solid green;
         border-radius: 15px;

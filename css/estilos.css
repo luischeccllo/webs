@@ -164,8 +164,7 @@ font-family: 'Fredoka One', cursive;*/
     {
         width: 100%;
         height: 170px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        border-radius: 10px;
     }
 
     .detallesn
@@ -401,7 +400,20 @@ verse compacto la pagina */
         padding-right: 2.5%;
     }
 
-    .normal img, .premiun img
+    .normal
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .normal img
+    {
+        height: 260px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .premiun img
     {
         height: 260px;
         width: 50%;
@@ -410,16 +422,20 @@ verse compacto la pagina */
         border-top-right-radius: 0px;
     }
 
-    .detallesn, .detallesp
+    .detallesp
     {
         margin-top: 0px;
-        padding: 25px;
+        padding: 15px;
         background: #fff;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
         height: 260px;
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .detallesn h3
@@ -430,7 +446,6 @@ verse compacto la pagina */
 
     .detallesn p
     {
-        margin-bottom: 15px;
         font-size: 18px;
     }
 
@@ -518,15 +533,23 @@ verse compacto la pagina */
         padding-right: 6%;
     }
 
+    .detallesp
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .detallesp h3
     {
         margin-bottom: 18px;
         text-align: center;
+        font-size: 160%;
     }
 
     .detallesp p
     {
-        margin-bottom: 20px;
         font-size: 16px;
     }
 
@@ -534,7 +557,7 @@ verse compacto la pagina */
     {
         font-family: 'Cabin', sans-serif;
         text-align: justify;
-        font-size: 19px;
+        font-size: 15.8px;
         line-height: 200%;
     }
 }
@@ -646,7 +669,7 @@ verse compacto la pagina */
 
     .promocion .contenedor
     {
-        width: 47%;
+        width: 70%;
     }
 
     .normal, .premiun
@@ -670,7 +693,7 @@ verse compacto la pagina */
     .detallesn, .detallesp
     {
         width: 100%;
-        height: 310px;
+        height: 260px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
         margin-bottom: 0px;
@@ -678,7 +701,7 @@ verse compacto la pagina */
 
     .detallesp h3, .detallesn h3
     {
-        font-size: 140%;
+        font-size: 175%;
     }
 
     .detallesn p
@@ -696,7 +719,7 @@ verse compacto la pagina */
     {
         margin-bottom: 25px;
     }
-    
+
     .detallesp #carac2
     {
         font-family: 'Cabin', sans-serif;
@@ -773,8 +796,8 @@ verse compacto la pagina */
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        padding-left: 8.75%;
-        padding-right: 8.75%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .part1 p, .part2 p, .part3 p
@@ -804,7 +827,7 @@ verse compacto la pagina */
     .detallesn, .detallesp
     {
         width: 100%;
-        height: 250px;
+        height: 220px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
         margin-bottom: 0px;
@@ -812,7 +835,7 @@ verse compacto la pagina */
 
     .detallesp h3, .detallesn h3
     {
-        font-size: 140%;
+        font-size: 180%;
     }
 
     .detallesn p
@@ -855,10 +878,10 @@ verse compacto la pagina */
     .promocion
     {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        padding-left: 13%;
-        padding-right: 13%;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 
     .mipart
@@ -880,11 +903,6 @@ verse compacto la pagina */
         flex-direction: column;
     }
 
-    .normal
-    {
-        margin-bottom: 0px;
-    }
-
     .normal img, .premiun img
     {
         width: 100%;
@@ -896,7 +914,7 @@ verse compacto la pagina */
     .detallesn, .detallesp
     {
         width: 100%;
-        height: 250px;
+        height: 230px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
         margin-bottom: 0px;
@@ -904,7 +922,7 @@ verse compacto la pagina */
 
     .detallesp h3, .detallesn h3
     {
-        font-size: 140%;
+        font-size: 190%;
     }
 
     .detallesn p

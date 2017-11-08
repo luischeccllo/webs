@@ -101,7 +101,12 @@ font-family: 'Fredoka One', cursive;*/
         font-weight: bold;
         color: #146E14;
     }
-
+    
+    #telef
+    {
+        font-style: italic;
+    }
+    
     .intro
     {
         padding: 5%;
