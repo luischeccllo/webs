@@ -124,6 +124,16 @@ font-family: 'Fredoka One', cursive;*/
         font-size: 18px;
         font-family: 'Cabin', sans-serif;
     }
+    
+    .hacemos
+    {
+        width: 100%;
+    }
+    
+    .part2 p
+    {
+        text-align: left;
+    }
 
     .part1, .part2
     {
