@@ -219,7 +219,13 @@ font-family: 'Bad Script', cursive;*/
     
     .texto h2
     {
-        font-size: 28px;
+        font-size: 32px;
+    }
+    
+    .texto p
+    {
+        line-height: 35px;
+        font-size: 18px;
     }
 
     .contimg
@@ -235,6 +241,28 @@ font-family: 'Bad Script', cursive;*/
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: 100% 120%;
+    }
+    
+    .detalles1, .detalles2
+    {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .pollo h2, .pato h2
+    {
+        margin-bottom: 10px;
+        border-bottom: 2px solid rgba(105,35,27,1);
+        font-size: 30px;
+    }
+    
+    .pollo p, .pato p
+    {
+        font-size: 20px;
+        line-height: 60px;
     }
 
     .detalles1
@@ -273,7 +301,7 @@ font-family: 'Bad Script', cursive;*/
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
-        background-size: 80% 100%;
+        background-size: 650px 100%;
     }
 
     .detalles1, .detalles2
@@ -294,16 +322,16 @@ font-family: 'Bad Script', cursive;*/
 
     .pollo h2, .pato h2
     {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         border-bottom: 2px solid rgba(105,35,27,1);
-        font-size: 27px;
+        font-size: 32px;
     }
 
     .pollo div, .pato div
     {
         line-height: 80px;
         font-size: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }
 
