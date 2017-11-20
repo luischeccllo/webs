@@ -4,6 +4,20 @@
 @import url(fuente.css);
 
 
+
+
+/*fuentes para usar:
+
+font-family: 'Jura', sans-serif;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Allerta', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Bad Script', cursive;*/
+
 @media (min-width:320px)
 {
     body
@@ -40,6 +54,8 @@
         text-align: center;
         font-size: 25px;
         margin-bottom: 15px;
+        font-family: 'Kaushan Script', cursive;
+        font-weight: 100;
     }
 
     .texto p
@@ -47,6 +63,7 @@
         text-align: justify;
         font-size: 18px;
         line-height: 30px;
+        font-family: 'Ubuntu', sans-serif;
     }
 
     .imgc
@@ -124,11 +141,20 @@
     {
         margin-bottom: 10px;
         border-bottom: 2px solid rgba(105,35,27,1);
+        font-family: 'Kaushan Script', cursive;
+        font-weight: 100;
     }
 
     .pollo div, .pato div
     {
         line-height: 50px;
+    }
+    
+    .pollo p, .pato p
+    {
+        font-family: 'Abel', sans-serif;
+        font-size: 18px;
+        font-style: italic;
     }
 
     .detalles2
@@ -189,6 +215,11 @@
     body
     {
         background: blue;
+    }
+    
+    .texto h2
+    {
+        font-size: 28px;
     }
 
     .contimg
