@@ -175,7 +175,45 @@
 
     .banner, #slider, #slider img
     {
-        height: 620px;
+        height: 550px;
+    }
+
+    #slider li img
+    {
+        display: none;
+    }
+
+    #slider .n1
+    {
+        height: 690px;
+        background-image: url(../img/chaufa2.JPG);
+        background-size: 100%;
+        background-position: top;
+
+    }
+
+    #slider .n2
+    {
+        height: 690px;
+        background-image: url(../img/chaufatallarin2.JPG);
+        background-size: 108%;
+        background-position: top;
+    }
+
+    #slider .n3
+    {
+        height: 690px;
+        background-image: url(../img/alitasdepollo2.JPG);
+        background-size: 120%;
+        background-position: top;
+    }
+
+    #slider .n4
+    {
+        height: 690px;
+        background-image: url(../img/sopacentral.JPG);
+        background-size: 110%;
+        background-position: bottom;
     }
 }
 
@@ -183,7 +221,82 @@
 {
     .banner, #slider, #slider img
     {
-        height: 590px;
+        height: 700px;
+    }
+    
+    #slider .n1
+    {
+        height: 690px;
+        background-image: url(../img/chaufa2.JPG);
+        background-size: 100%;
+        background-position: center;
+
+    }
+    
+    #slider .n2
+    {
+        height: 690px;
+        background-image: url(../img/chaufatallarin1.JPG);
+        background-size: 100%;
+        background-position: bottom;
+    }
+    
+    #slider .n3
+    {
+        height: 690px;
+        background-image: url(../img/alitasdepollo.JPG);
+        background-size: 110%;
+        background-position: bottom;
+    }
+    
+    #slider .n4
+    {
+        height: 690px;
+        background-image: url(../img/sopacentral.JPG);
+        background-size: 100%;
+        background-position: center;
+    }
+}
+
+
+@media (min-width:1450px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 700px;
+    }
+    
+    #slider .n1
+    {
+        height: 690px;
+        background-image: url(../img/chaufa2.JPG);
+        background-size: 100%;
+        background-position: top;
+
+    }
+    
+    #slider .n2
+    {
+        height: 690px;
+        background-image: url(../img/chaufatallarin1.JPG);
+        background-size: 105%;
+        background-position: bottom;
+    }
+    
+    #slider .n3
+    {
+        height: 690px;
+        background-image: url(../img/alitasdepollo.JPG);
+        background-size: 105%;
+        background-position: bottom;
+    }
+    
+    #slider .n4
+    {
+        height: 690px;
+        background-image: url(../img/sopacentral.JPG);
+        background-size: 100%;
+        background-position: center;
     }
 }
 
@@ -192,6 +305,6 @@
 {
     .banner, #slider, #slider img
     {
-        height: 620px;
+        height:710px;
     }
 }

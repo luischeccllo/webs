@@ -145,16 +145,12 @@ font-family: 'Bad Script', cursive;*/
         font-weight: 100;
     }
 
-    .pollo div, .pato div
-    {
-        line-height: 50px;
-    }
-    
     .pollo p, .pato p
     {
         font-family: 'Abel', sans-serif;
         font-size: 18px;
         font-style: italic;
+        line-height: 55px;
     }
 
     .detalles2
@@ -181,9 +177,9 @@ font-family: 'Bad Script', cursive;*/
 {
     body
     {
-        background: red;
+/*        background: red;*/
     }
-    
+
     .bienvenidos
     {
         padding-top: 25px;
@@ -214,14 +210,14 @@ font-family: 'Bad Script', cursive;*/
 {
     body
     {
-        background: blue;
+/*        background: blue;*/
     }
-    
+
     .texto h2
     {
         font-size: 32px;
     }
-    
+
     .texto p
     {
         line-height: 35px;
@@ -242,7 +238,7 @@ font-family: 'Bad Script', cursive;*/
         background-repeat: no-repeat;
         background-size: 100% 120%;
     }
-    
+
     .detalles1, .detalles2
     {
         display: flex;
@@ -251,24 +247,24 @@ font-family: 'Bad Script', cursive;*/
         padding-top: 30px;
         padding-bottom: 50px;
     }
-    
+
     .pollo h2, .pato h2
     {
         margin-bottom: 10px;
         border-bottom: 2px solid rgba(105,35,27,1);
         font-size: 30px;
     }
-    
+
     .pollo p, .pato p
     {
         font-size: 20px;
-        line-height: 60px;
+        line-height: 65px;
     }
 
     .detalles1
     {
         background-image: url(../img/chaufa.JPG);
-        background-size: 135%;
+        background-size: 145%;
         background-position: center left;
     }
 }
@@ -277,9 +273,9 @@ font-family: 'Bad Script', cursive;*/
 {
     body
     {
-        background: yellow;
+/*        background: yellow;*/
     }
-    
+
     .texto
     {
         color: white;
@@ -329,9 +325,14 @@ font-family: 'Bad Script', cursive;*/
 
     .pollo div, .pato div
     {
-        line-height: 80px;
         font-size: 20px;
         margin-bottom: 30px;
+    }
+    
+    .pollo p, .pato p
+    {
+        font-size: 20px;
+        line-height: 75px;
     }
 }
 
@@ -339,9 +340,9 @@ font-family: 'Bad Script', cursive;*/
 {
     body
     {
-        background: black;
+/*        background: black;*/
     }
-    
+
     .bienvenidos
     {
         padding-top: 25px;
@@ -349,13 +350,18 @@ font-family: 'Bad Script', cursive;*/
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
     .texto
     {
         color: white;
         margin-bottom: 25px;
         padding-left: 45px;
         padding-right: 45px;
+    }
+    
+    .texto h2
+    {
+        font-size: 35px;
     }
 
     .contimg
@@ -381,7 +387,7 @@ font-family: 'Bad Script', cursive;*/
         background-size: 145%;
         background-position: center left;
     }
-    
+
     .detalles1, .detalles2
     {
         display: flex;
@@ -393,9 +399,13 @@ font-family: 'Bad Script', cursive;*/
 
     .pollo div, .pato div
     {
-        line-height: 80px;
-        font-size: 20px;
         margin-bottom: 45px;
+    }
+    
+    .pollo p, .pato p
+    {
+        font-size: 23px;
+        line-height: 85px;
     }
 }
 
@@ -404,9 +414,9 @@ font-family: 'Bad Script', cursive;*/
 {
     body
     {
-        background: blue;
+/*        background: blue;*/
     }
-    
+
     .bienvenidos
     {
         padding-top: 35px;
@@ -414,7 +424,7 @@ font-family: 'Bad Script', cursive;*/
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
     .texto
     {
         color: white;
@@ -422,15 +432,15 @@ font-family: 'Bad Script', cursive;*/
         padding-left: 85px;
         padding-right: 85px;
     }
-    
+
     .texto h2
     {
-        font-size: 30px;
+        font-size: 35px;
     }
-    
+
     .texto p
     {
-        line-height: 40px;
+        line-height: 45px;
     }
 
     .detalles1, .detalles2
@@ -476,9 +486,9 @@ font-family: 'Bad Script', cursive;*/
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        padding-bottom: 25px;
+        padding-bottom: 35px;
     }
-    
+
     .texto
     {
         margin-bottom: 0px;
@@ -487,13 +497,19 @@ font-family: 'Bad Script', cursive;*/
         width: 35%;
     }
     
+    .texto p
+    {
+        line-height: 35px;
+        font-size: 18px;
+    }
+
     .contimg
     {
         padding-left: 0%;
         padding-right: 0%;
         width: 50%;
     }
-    
+
     .imgc
     {
         height: 370px;
@@ -521,7 +537,7 @@ font-family: 'Bad Script', cursive;*/
     .detalles1
     {
         background-image: url(../img/chaufa.JPG);
-        background-size: 150%;
+        background-size: 130%;
         background-position: center left;
     }
 
@@ -529,13 +545,81 @@ font-family: 'Bad Script', cursive;*/
     {
         margin-bottom: 10px;
         border-bottom: 2px solid rgba(105,35,27,1);
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .pollo div, .pato div
     {
-        line-height: 80px;
+        line-height: 100px;
         font-size: 22px;
-        margin-bottom: 60px;
+        margin-bottom: 90px;
+    }
+
+    .pollo p, .pato p
+    {
+        font-size: 23px;
+    }
+}
+
+
+@media (min-width:1250px)
+{
+    body
+    {
+/*        background: green;*/
+    }
+    
+    .bienvenidos
+    {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .texto
+    {
+        margin-bottom: 0px;
+        padding-left: 70px;
+        padding-right: 70px;
+        width: 40%;
+    }
+    
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 125%;
+        background-position: center left;
+    }
+
+    .detalles1 .alineacion
+    {
+        width: 85%;
+    }
+    
+    .pollo div, .pato div
+    {
+        font-size: 22px;
+        margin-bottom: 130px;
+    }
+    
+    .pollo p
+    {
+        line-height: 85px;
+    }
+}
+
+
+@media (min-width:1450px)
+{
+    body
+    {
+/*        background: blue;*/
+    }
+
+    .texto
+    {
+        margin-bottom: 0px;
+        padding-left: 90px;
+        padding-right: 90px;
+        width: 40%;
     }
 }

@@ -147,7 +147,9 @@ font-family: 'Bad Script', cursive;*/
     footer
     {
         display: flex;
+        width: 100%;
         justify-content: center;
+        background: rgba(131, 27, 27, 1);
     }
 
     .sociales
