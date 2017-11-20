@@ -1,0 +1,329 @@
+/*este codigo lo escribo para tablet*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    /*    background: rgba(105,35,27,1);*/
+    /*background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;*/
+}
+
+.siempre
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.siempre div
+{
+    width: 45%;
+    margin-right: 10px;
+}
+
+#logo
+{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#logop
+{
+    display: none;
+}
+
+.logo
+{
+    display: none;
+}
+
+header
+{
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    padding-left: 75px;
+}
+
+.header
+{
+    height: auto;
+    background: black;
+    color: rgba(105,35,27,1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#btn-menu
+{
+    display: none;
+}
+
+.alineacion
+{
+    width: 80%;
+}
+
+.header label
+{
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul
+{
+    display: flex;
+    width: 100%;
+    background: black;
+    list-style: none;
+    /*height: 70px;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul ul
+{
+    display: none;
+}
+
+.menu .en
+{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+}
+
+.menu .en:before{
+    content: "";
+    display: block;
+    transition: all 0.3s;
+    width: 0;
+    height: 3px;
+    background: rgba(105,35,27,1);
+    position: absolute;
+    left:0px;
+    bottom:0px;
+}
+
+.menu .en:hover:before
+{
+    width: 100%;
+}
+
+.menu a span
+{
+    margin-left: 10px;
+}
+
+.menu ul li:hover ul
+{
+    display: block;
+    position: absolute;
+    padding-top: 10px;
+    background: black;
+    margin-left: 35px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*este codigo lo escribo para movil*/
+
+@media (max-width:1000px)
+{
+    #logop
+    {
+        display: block;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+
+    #logo
+    {
+        display: none;
+    }
+
+    .logo
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo h1
+    {
+        font-size: 28px;
+        margin-left: 10px;
+        font-family: "ChinaOne";
+    }
+
+    header
+    {
+        background: black;
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        background: black;
+        color: rgba(105,35,27,1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .alineacion
+    {
+        width: 85%;
+    }
+
+    .header label
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu
+    {
+        position: absolute;
+        margin-top: 40px;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+    }
+
+    .menu .en
+    {
+        display: block;
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .menu ul
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .hijos .en
+    {
+        padding-left: 55px;
+        background: rgba(105,35,27,1);
+    }
+
+    .menu ul li:hover ul
+    {
+        display: none;
+        position: static;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+
+    .menu a span
+    {
+        position: absolute;
+        right: 5px;
+        margin-left: 0px;
+    }
+
+    .menu a:hover:before
+    {
+        width: 0%;
+    }
+
+    .menu a:hover
+    {
+        background: white;
+        color: rgba(105,35,27,1);
+        font-weight: bold;
+    }
+
+    #btn-menu:checked ~ .menu
+    {
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:780px)
+{
+    .alineacion
+    {
+        width: 87%;
+    }
+
+    .logo h1
+    {
+        display: none;
+    }
+}
+
+
+
+
+
+@media (max-width:580px)
+{
+    .alineacion
+    {
+        width: 90%;
+    }
+}

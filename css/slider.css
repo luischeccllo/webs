@@ -1,7 +1,7 @@
 .banner
 {
-    margin-top: 60px;
-    height: 230px;
+    height: 255px;
+    margin-top: 80px;
 }
 
 .segimg
@@ -19,7 +19,7 @@
 #slider ul
 {
     padding: 0;
-    height: 230px;
+    height: 250px;
 
     display: flex;
     width: 400%;
@@ -30,7 +30,7 @@
 #slider li
 {
     width: 100%;
-    height: 230px;
+    height: 250px;
     list-style: none;
 }
 
@@ -65,8 +65,7 @@
 
 /*haciendo responsive*/
 
-
-@media (min-width:410px)
+@media (min-width:390px)
 {
     .banner, #slider, #slider img
     {
@@ -74,7 +73,15 @@
     }
 }
 
-@media (min-width:540px)
+@media (min-width:410px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 290px;
+    }
+}
+
+@media (min-width:470px)
 {
     .banner, #slider, #slider img
     {
@@ -82,7 +89,15 @@
     }
 }
 
-@media (min-width:750px)
+@media (min-width:530px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 350px;
+    }
+}
+
+@media (min-width:600px)
 {
     .banner, #slider, #slider img
     {
@@ -90,18 +105,61 @@
     }
 }
 
+@media (min-width:650px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 420px;
+    }
+}
+
+@media (min-width:730px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 460px;
+    }
+}
+
+@media (min-width:780px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 500px;
+    }
+}
+
+
 @media (min-width:850px)
 {
     .banner, #slider, #slider img
     {
-        height: 380px;
+        height: 550px;
     }
 
     .segimg
     {
         display: flex;
     }
-    
+
+    .primg
+    {
+        display: none;
+    }
+}
+
+@media (min-width:930px)
+{
+    .banner, #slider, #slider img
+    {
+        height: 590px;
+    }
+
+    .segimg
+    {
+        display: flex;
+    }
+
     .primg
     {
         display: none;
@@ -110,9 +168,14 @@
 
 @media (min-width:1000px)
 {
+    .banner
+    {
+        margin-top: 104px;
+    }
+
     .banner, #slider, #slider img
     {
-        height: 490px;
+        height: 620px;
     }
 }
 

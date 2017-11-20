@@ -1,0 +1,482 @@
+@import url(estilosmenu.css);
+@import url(slider.css);
+@import url(footer.css);
+@import url(fuente.css);
+
+
+@media (min-width:320px)
+{
+    body
+    {
+        /*    background: rgba(105,35,27,1);*/
+        /*background-image: url(../img/fondo.jpg);
+        background-attachment: fixed;*/
+        background: rgba(131, 27, 27, 1);
+    }
+
+    main
+    {
+
+    }
+
+    .bienvenidos
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .texto
+    {
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    .texto h2
+    {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .texto p
+    {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .imgc
+    {
+        height: 200px;
+        background-image: url(../img/clientes2.JPG);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+    }
+
+    .botones
+    {
+        background: black;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .botones div
+    {
+        padding: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botones label
+    {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+
+    .botones label img
+    {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        color: white;
+    }
+
+    .botones p
+    {
+        margin-top: 10px;
+    }
+
+    .detalles1, .detalles2
+    {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 200%;
+        background-position: center left;
+    }
+
+    .detalles2
+    {
+        background-image: url(../img/chaufatallarin1.JPG);
+        background-size: 120% 100%;
+        background-position: left;
+    }
+
+    .pollo h2, .pato h2
+    {
+        margin-bottom: 10px;
+        border-bottom: 2px solid rgba(105,35,27,1);
+    }
+
+    .pollo div, .pato div
+    {
+        line-height: 50px;
+    }
+
+    .detalles2
+    {
+        position: absolute;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+    }
+
+
+    #btn-pollo, #btn-pato
+    {
+        display: none;
+    }
+
+    #btn-pato:checked ~ .detalles2
+    {
+        transform: translateX(-100%);
+    }
+}
+
+@media (min-width:420px)
+{
+    body
+    {
+        background: red;
+    }
+    
+    .bienvenidos
+    {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .imgc
+    {
+        height: 290px;
+        background-image: url(../img/clientes2.JPG);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+    }
+
+
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 170%;
+        background-position: center left;
+    }
+}
+
+@media (min-width:580px)
+{
+    body
+    {
+        background: blue;
+    }
+
+    .contimg
+    {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .imgc
+    {
+        height: 340px;
+        background-image: url(../img/clientes2.JPG);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 120%;
+    }
+
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 135%;
+        background-position: center left;
+    }
+}
+
+@media (min-width:730px)
+{
+    body
+    {
+        background: yellow;
+    }
+    
+    .texto
+    {
+        color: white;
+        margin-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contimg
+    {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .imgc
+    {
+        height: 340px;
+        background-image: url(../img/clientes3.JPG);
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 80% 100%;
+    }
+
+    .detalles1, .detalles2
+    {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 160%;
+        background-position: center left;
+    }
+
+    .pollo h2, .pato h2
+    {
+        margin-bottom: 10px;
+        border-bottom: 2px solid rgba(105,35,27,1);
+        font-size: 27px;
+    }
+
+    .pollo div, .pato div
+    {
+        line-height: 80px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:780px)
+{
+    body
+    {
+        background: black;
+    }
+    
+    .bienvenidos
+    {
+        padding-top: 25px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .texto
+    {
+        color: white;
+        margin-bottom: 25px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .contimg
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%;
+    }
+
+    .imgc
+    {
+        height: 370px;
+        background-image: url(../img/clientes2.JPG);
+        background-attachment: fixed;
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 110% 105%;
+    }
+
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 145%;
+        background-position: center left;
+    }
+    
+    .detalles1, .detalles2
+    {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+
+    .pollo div, .pato div
+    {
+        line-height: 80px;
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+}
+
+
+@media (min-width:850px)
+{
+    body
+    {
+        background: blue;
+    }
+    
+    .bienvenidos
+    {
+        padding-top: 35px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .texto
+    {
+        color: white;
+        margin-bottom: 25px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    .texto h2
+    {
+        font-size: 30px;
+    }
+    
+    .texto p
+    {
+        line-height: 40px;
+    }
+
+    .detalles1, .detalles2
+    {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 65px;
+        padding-bottom: 30px;
+    }
+
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 160%;
+        background-position: center left;
+    }
+
+    .pollo h2, .pato h2
+    {
+        margin-bottom: 10px;
+        border-bottom: 2px solid rgba(105,35,27,1);
+        font-size: 30px;
+    }
+
+    .pollo div, .pato div
+    {
+        line-height: 80px;
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:1000px)
+{
+    body
+    {
+        background: rgba(131, 27, 27, 1);
+    }
+
+    .bienvenidos
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 25px;
+    }
+    
+    .texto
+    {
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 35%;
+    }
+    
+    .contimg
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 50%;
+    }
+    
+    .imgc
+    {
+        height: 370px;
+        background-image: url(../img/clientes2.JPG);
+        background-attachment: fixed;
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 80% 105%;
+    }
+
+    .detalles1, .detalles2
+    {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .detalles1 .alineacion, .detalles2 .alineacion
+    {
+        width: 90%;
+    }
+
+    .detalles1
+    {
+        background-image: url(../img/chaufa.JPG);
+        background-size: 150%;
+        background-position: center left;
+    }
+
+    .pollo h2, .pato h2
+    {
+        margin-bottom: 10px;
+        border-bottom: 2px solid rgba(105,35,27,1);
+        font-size: 35px;
+    }
+
+    .pollo div, .pato div
+    {
+        line-height: 80px;
+        font-size: 22px;
+        margin-bottom: 60px;
+    }
+}
