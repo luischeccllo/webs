@@ -19,7 +19,7 @@
 #slider ul
 {
     padding: 0;
-    height: 250px;
+    height: 255px;
 
     display: flex;
     width: 400%;
@@ -30,7 +30,7 @@
 #slider li
 {
     width: 100%;
-    height: 250px;
+    height: 255px;
     list-style: none;
 }
 

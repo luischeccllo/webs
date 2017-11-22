@@ -1,7 +1,6 @@
 @import url(estilosmenu.css);
 @import url(slider.css);
 @import url(footer.css);
-@import url(fuente.css);
 
 
 
@@ -236,7 +235,7 @@ font-family: 'Bad Script', cursive;*/
         background-image: url(../img/clientes2.JPG);
         background-position: bottom;
         background-repeat: no-repeat;
-        background-size: 100% 120%;
+        background-size: 120% 125%;
     }
 
     .detalles1, .detalles2
@@ -295,9 +294,9 @@ font-family: 'Bad Script', cursive;*/
         height: 340px;
         background-image: url(../img/clientes3.JPG);
         background-attachment: fixed;
-        background-position: top;
+        background-position: top left;
         background-repeat: no-repeat;
-        background-size: 650px 100%;
+        background-size: 90% 100%;
     }
 
     .detalles1, .detalles2
